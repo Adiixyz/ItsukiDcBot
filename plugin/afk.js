@@ -20,7 +20,7 @@ module.exports = async (client, message) => {
     };
 
     if (authorstatus) {
-        message.reply(`Kato telah mencabut status AFK mu!`).then(
+        message.reply(`ItsukiBot telah mencabut status AFK mu!`).then(
             d => d.delete({ timeout: 10000 })
         )
         afk.delete(message.author.id)
