@@ -48,7 +48,7 @@ exports.conf = {
 
 exports.help = {
   name: 'stats',
-  description: 'Melihat spesifikasi PC yang dipakai oleh Kato-Bot',
+  description: 'Melihat spesifikasi PC yang dipakai oleh Itsuki-Bot',
   usage: 'k!stats',
   example: 'k!stats'
 }
