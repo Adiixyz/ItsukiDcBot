@@ -60,6 +60,6 @@ exports.conf = {
 exports.help = {
   name: 'avatar',
   description: 'melihat avatar',
-  usage: 'avatar [@mention | userID | server | nickname]>',
-  example: 'avatar @juned'
+  usage: 'k!avatar [@mention | userID | server | nickname]>',
+  example: 'k!avatar @Itsuki#3879'
 }
