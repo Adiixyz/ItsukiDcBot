@@ -8,14 +8,13 @@ exports.run = async (client, message, args) => {
     const botembed = new Discord.MessageEmbed()
       .setColor(client.warna.kato)
       .setThumbnail(bicon)
-      .addField("Nama", "Kato Megumi")
-      .addField("Tanggal Lahir", "23 September")
-      .addField("Pemilik", "ManLord#3143")
-      .addField("Bahasa", "Discord.JS dengan NodeJS")
-      .addField("Motto", "Bagi Steam Wallet")
-      .addField("Terima Kasih Kepada", "Karen-Araragi-Master dan Kato Megumi Fanbase Server")
-      .addField("Tim Pengembang", "The OwO Family dan Bot Commander Kato Megumi Fanbase")
-      .setFooter("Stable Release | ManLord#3143")
+      .addField("Name", "AdiiAndre")
+      .addField("Birthday", "18 March")
+      .addField("Owner", "Itsuki#3879")
+      .addField("Language", "Discord.JS with NodeJS")
+      .addField("Thanks To", "Adii")
+      .addField("Instagram", "adiistah")
+      .setFooter("Stable Release | Itsuki#3879")
       .setAuthor(message.guild.name, message.guild.iconURL())
     message.channel.send(botembed);
   } catch (error) {
@@ -25,13 +24,13 @@ exports.run = async (client, message, args) => {
 }
 
 exports.conf = {
-  aliases: ["kato"],
+  aliases: ["adii"],
   cooldown: 5
 }
 
 exports.help = {
   name: 'about',
-  description: 'melihat tentang Kato-Bot',
+  description: 'melihat tentang Itsuki-Bot',
   usage: 'k!about',
   example: 'k!about'
 }
