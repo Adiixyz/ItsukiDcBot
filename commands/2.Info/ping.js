@@ -22,7 +22,7 @@ exports.conf = {
 
 exports.help = {
   name: 'ping',
-  description: 'Menampilkan pengetesan jaringan bot Kato.',
+  description: 'Menampilkan pengetesan jaringan bot Itsuki',
   usage: 'ping',
   example: 'ping'
 }
